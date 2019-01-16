@@ -1,0 +1,43 @@
+{
+    "name": "sepiphy/laravel-support",
+    "description": "The \"sepiphy/laravel-support\" package extends Laravel Support Component.",
+    "keywords": [
+        "sepiphy", "laravel", "laravel-support"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/sepiphy/laravel-extensions",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/sepiphy/laravel-extensions/issues",
+        "source": "https://github.com/sepiphy/laravel-extensions"
+    },
+    "authors": [
+        {
+            "name": "Nguyễn Xuân Quỳnh",
+            "email": "nguyenxuanquynh2210vghy@gmail.com",
+            "homepage": "https://nguyenquynh2210.com",
+            "role": "Software Developer"
+        }
+    ],
+    "require": {
+        "illuminate/contracts": "~5.5",
+        "illuminate/database": "~5.5",
+        "illuminate/http": "~5.5",
+        "illuminate/support": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sepiphy\\Laravel\\Support\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.3-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
