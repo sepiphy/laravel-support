@@ -1,13 +1,13 @@
 
-# Laravel Support Extension
+# The Sepiphy Laravel Support package
 
 ## Requirements
 
-- Laravel [5.6](https://laravel.com/docs/5.6) or [5.7](https://laravel.com/docs/5.7).
+- Laravel [5.6](https://laravel.com/docs/5.5), [5.6](https://laravel.com/docs/5.6) or [5.7](https://laravel.com/docs/5.7).
 
 ## Installation
 
-You should install the `sepiphy/laravel-support` dependency via Composer:
+Install the `sepiphy/laravel-support` package via Composer:
 
 ```bash
 composer require sepiphy/laravel-support
@@ -32,8 +32,14 @@ return [
 
 ## Usage
 
-- If you want to use Dependency Injection instead of Laravel Facades, [Interaction](Interaction) classes may be pretty choices.
-
+- If you want to use Dependency Injection instead of Laravel Facades, try [Interaction](Interaction) traits.
 - If you want to use a wrapper instead of Model mutators/accessors, try the [Presenter](Presenter.php) class.
-
 - If you want to split your simple query builder, try the [Query](Query.php) class.
+
+## Contributing
+
+Please visit [sepiphy/laravel-extensions](../../README.md) for more details!
+
+## License
+
+The `sepiphy/laravel-support` package is open-sourced software licensed under the [MIT license](LICENSE.md).

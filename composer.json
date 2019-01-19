@@ -1,12 +1,12 @@
 {
     "name": "sepiphy/laravel-support",
-    "description": "The \"sepiphy/laravel-support\" package extends Laravel Support Component.",
+    "description": "The Sepiphy Laravel Support package.",
     "keywords": [
         "sepiphy", "laravel", "laravel-support"
     ],
     "type": "library",
-    "homepage": "https://github.com/sepiphy/laravel-extensions",
     "license": "MIT",
+    "homepage": "https://github.com/sepiphy/laravel-extensions",
     "support": {
         "issues": "https://github.com/sepiphy/laravel-extensions/issues",
         "source": "https://github.com/sepiphy/laravel-extensions"
