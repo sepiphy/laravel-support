@@ -33,6 +33,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Sepiphy\\Laravel\\Support\\SupportServiceProvider"
+            ]
         }
     },
     "config": {
