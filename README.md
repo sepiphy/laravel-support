@@ -7,27 +7,10 @@
 
 ## Installation
 
-Install the `sepiphy/laravel-support` package via Composer:
+Install the `sepiphy/laravel-support` package via Composer.
 
 ```bash
 composer require sepiphy/laravel-support
-```
-
-Then, you have to add the `Sepiphy\Laravel\Support\SupportServiceProvider` class to the `config/app.php` configuration file.
-
-```php
-return [
-
-    'providers' => [
-
-        /*
-         * Package Service Providers...
-         */
-        Sepiphy\Laravel\Support\SupportServiceProvider::class,
-
-    ],
-
-];
 ```
 
 ## Usage
