@@ -1,5 +1,7 @@
 
-# The Sepiphy Laravel Support package
+## About
+
+The Sepiphy Laravel Support package.
 
 ## Requirements
 
