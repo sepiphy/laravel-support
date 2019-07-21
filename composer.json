@@ -1,6 +1,6 @@
 {
     "name": "sepiphy/laravel-support",
-    "description": "The Sepiphy Laravel Support package.",
+    "description": "The sepiphy/laravel-support package",
     "keywords": [
         "sepiphy", "laravel", "laravel-support"
     ],
@@ -14,9 +14,7 @@
     "authors": [
         {
             "name": "Quynh Xuan Nguyen",
-            "email": "seriquynh@gmail.com",
-            "homepage": "https://seriquynh.com",
-            "role": "Software Developer"
+            "email": "seriquynh@gmail.com"
         }
     ],
     "require": {

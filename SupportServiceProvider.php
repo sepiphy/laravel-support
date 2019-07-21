@@ -12,7 +12,6 @@
 namespace Sepiphy\Laravel\Support;
 
 use Illuminate\Support\ServiceProvider;
-use Sepiphy\Laravel\Support\Presenter;
 
 class SupportServiceProvider extends ServiceProvider
 {
