@@ -19,10 +19,10 @@
     ],
     "require": {
         "php": "^7.2.0",
-        "illuminate/contracts": "5.8.*",
-        "illuminate/database": "5.8.*",
-        "illuminate/http": "5.8.*",
-        "illuminate/support": "5.8.*"
+        "illuminate/contracts": "^5.8 | ^6.0 | ^7.0",
+        "illuminate/database": "^5.8 | ^6.0 | ^7.0",
+        "illuminate/http": "^5.8 | ^6.0 | ^7.0",
+        "illuminate/support": "^5.8 | ^6.0 | ^7.0"
     },
     "autoload": {
         "psr-4": {
