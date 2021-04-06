@@ -1,6 +1,6 @@
 {
     "name": "sepiphy/laravel-support",
-    "description": "The sepiphy/laravel-support package",
+    "description": "Shared Utilities for Laravel",
     "keywords": [
         "sepiphy", "laravel", "laravel-support"
     ],
