@@ -6,10 +6,10 @@
     ],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/sepiphy/laratools",
+    "homepage": "https://github.com/sepiphy/laravel-support",
     "support": {
-        "issues": "https://github.com/sepiphy/laratools/issues",
-        "source": "https://github.com/sepiphy/laratools"
+        "issues": "https://github.com/sepiphy/laravel-support/issues",
+        "source": "https://github.com/sepiphy/laravel-support"
     },
     "authors": [
         {
@@ -18,15 +18,18 @@
         }
     ],
     "require": {
-        "php": "^7.2.0",
-        "illuminate/contracts": "^5.8 | ^6.0 | ^7.0",
-        "illuminate/database": "^5.8 | ^6.0 | ^7.0",
-        "illuminate/http": "^5.8 | ^6.0 | ^7.0",
-        "illuminate/support": "^5.8 | ^6.0 | ^7.0"
+        "illuminate/contracts": "^5.8 | ^6.0 | ^7.0 | ^8.0",
+        "illuminate/database": "^5.8 | ^6.0 | ^7.0 | ^8.0",
+        "illuminate/http": "^5.8 | ^6.0 | ^7.0 | ^8.0",
+        "illuminate/support": "^5.8 | ^6.0 | ^7.0 | ^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.4",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "Sepiphy\\Laravel\\Support\\": ""
+            "Sepiphy\\Laravel\\Support\\": "src/"
         }
     },
     "extra": {

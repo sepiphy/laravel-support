@@ -19,7 +19,7 @@ use Illuminate\Database\Eloquent\Builder as EBuilder;
 abstract class Query
 {
     /**
-     * Build a builder with the given request.
+     * Build a query builder with the given request.
      *
      * @param  QBuilder|EBuilder  $builder
      * @param  Request  $request
